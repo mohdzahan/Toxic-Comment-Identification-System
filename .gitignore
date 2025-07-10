@@ -1,3 +1,35 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.keras
+ 
+venv/
+.env/
+*.env
+ 
+.DS_Store
+ 
+.ipynb_checkpoints/
+ 
+toxicity_model.h5
+toxicity_model.keras
+toxicity_model .keras  
+vectorizer_assets.pkl
+class_weights.pkl
+ 
+train.csv   
+ 
+instance/
+*.log
+*.db
+
+Ss.png
+
+Data
 
 
-Comment_toxic.pptx
+
