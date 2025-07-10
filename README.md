@@ -17,7 +17,7 @@ The model is trained on the Jigsaw Toxic Comment Classification dataset (`train.
 - **Loss Function**: Weighted binary cross-entropy to address class imbalance.
 - **Metrics**: Accuracy, precision, recall, and custom F1-score (threshold: 0.3).
 - **Training**:
-  - Batch size: 128.
+7  - Batch size: 128.
   - Epochs: 10 (early stopping on validation F1-score).
   - Oversampling: 3x for positive samples.
   - Mixed precision training for efficiency on T4 GPU.
@@ -29,9 +29,10 @@ The model achieves a validation macro F1-score of 0.4373, with strong performanc
 ## User Interface
 The Flask web application provides an intuitive interface for toxicity prediction, built with Tailwind CSS. Users can input a comment and receive predictions for each toxicity category. Below is a screenshot of the UI:
 
-![Toxicity Classifier UI](screenshot.png)  
-*Paste your UI screenshot here (e.g., `screenshot.png`) and ensure it’s placed in the project directory.*
-<img src="toxicity_detector.png" alt="App Preview" width="600">
+<p align="center">
+  <img src="toxicity_detector.png" alt="App Preview" width="600" s">
+</p>
+
 
 ## Setup Instructions
 ### Prerequisites
