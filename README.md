@@ -31,7 +31,7 @@ The Flask web application provides an intuitive interface for toxicity predictio
 
 ![Toxicity Classifier UI](screenshot.png)  
 *Paste your UI screenshot here (e.g., `screenshot.png`) and ensure it’s placed in the project directory.*
-<img src="Ss.png" alt="App Preview" width="600">
+<img src="toxicity_detector.png" alt="App Preview" width="600">
 
 ## Setup Instructions
 ### Prerequisites
